@@ -11,19 +11,27 @@ body {
 .container {
   width: 1440px;
   height: 100vh;
-  background: url("./images/Portfolio\ 14.svg");
   background-repeat: no-repeat;
   background-size: 1440px;
   background-position: center center;
+  background: url("./images/Portfolio\ 14.svg");
 }
 
-.container header .nav-bar {
-  width: 1400px;
+.container .header {
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+}
+
+.container .header .nav-bar {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
 .container header .nav-bar .logomain img {
@@ -31,7 +39,7 @@ body {
 }
 .container header .nav-bar ul li {
   display: inline-block;
-  font-size: 12px;
+  font-size: 16px;
 
 }
 
@@ -40,20 +48,21 @@ body {
   text-decoration: none;
 }
 .hero {
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .hero .intro {
   width: 300px;
-  margin-left: 50px;
   /* background-color: black; */
 }
 
 .hero .intro h1 {
-  font-size: 48px;
+  font-size: 82px;
   font-weight: 400;
-  line-height: 3rem;
+  line-height: 5rem;
   letter-spacing: 0em;
   text-align: left;
   color: white;
@@ -98,14 +107,14 @@ body {
 }
 
 .hero .logo-container {
-  padding-top: 50px;
-  padding-right: 130px;
+  /* padding-top: 50px; */
+  /* padding-right: 130px; */
   transition: all 0.5s ease;
   animation: logo 1s cubic-bezier(0.95, 0.05, 0.795, 0.035);
 }
 
 .hero .logo-container img {
-  width: 400px;
+  width: 500px;
 }
 
 @keyframes logo {
