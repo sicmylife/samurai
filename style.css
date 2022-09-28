@@ -1,28 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Be+Vietnam+Pro:wght@400;500;700&family=Roboto:ital,wght@0,500;0,900;1,400&family=Rubik+Mono+One&display=swap");
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Rubik Mono One", sans-serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .container {
+  /* width: 1240px; */
+
+}
+
+.container .hero-section {
   width: 1440px;
+  margin: 0 auto;
+  background: url("./images/Portfolio\ 14.svg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: 1440px;
   background-position: center center;
-  background: url("./images/Portfolio\ 14.svg");
-}
-
-.container .header {
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ 
 }
 
 .container .header .nav-bar {
@@ -34,7 +37,7 @@ body {
   padding-top: 20px;
 }
 
-.container header .nav-bar .logomain img {
+.container .header .nav-bar .logomain img {
   width: 40px;
 }
 .container header .nav-bar ul li {
@@ -53,6 +56,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 100px;
 }
 .hero .intro {
   width: 300px;
@@ -62,7 +66,7 @@ body {
 .hero .intro h1 {
   font-size: 82px;
   font-weight: 400;
-  line-height: 5rem;
+  line-height: 6rem;
   letter-spacing: 0em;
   text-align: left;
   color: white;
@@ -75,7 +79,8 @@ body {
 
 .hero .intro .btn {
   background-color: black;
-  padding: 10px 20px;
+  padding: 15px 25px;
+  border-radius: 5px 10px 5px 10px;
   display: inline-block;
   animation: btn 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.4s;
 }
@@ -129,7 +134,14 @@ body {
 
 section{
   background-color: #D7B341;
-  height: 100Vh;
+
+}
+
+section .wrapper{
+  padding: 50px 0;
+  width: 1200px;
+  margin: 0 auto;
+
 }
 
 
